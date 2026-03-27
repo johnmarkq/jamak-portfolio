@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button"
+import { HeroBanner } from "@/components/features/homepage/HeroBanner"
 
 export default function Page() {
   return (
-    <div>
-      home page
-    </div>
+    <>
+      <HeroBanner />    
+    </>
   )
 }

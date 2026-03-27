@@ -18,7 +18,7 @@ export function Header() {
                             navbarPath.map((data, index) => (
                                 currentPath === data.path ?
                                     <Link href={data.path} key={index}
-                                    className={`scale-120 transition-all duration-500 ${data.path === "/" || data.path === "/blog" ? "px-5" : "px-5"}`}>
+                                    className={`scale-120 transition-all duration-500 px-8  `}>
                                         <li>
                                             {data.name}
                                         </li>
