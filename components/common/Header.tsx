@@ -3,12 +3,14 @@ import { navbarPath } from "@/contant/navbarlink"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ModeToggle } from "@/components/common/DarkmodeToggle"
+import { useState } from "react"
 
 export function Header() {
     const currentPath = usePathname();
+
     return (
-        <div className="border-b border-slate-200">
-            <header className="container mx-auto flex sticky top-0 z-50  h-20 flex items-center justify-around">
+        <div className="border-b border-slate-200 mx-20">
+            <header className="container mx-auto flex fixed top-0 z-50  h-20 flex items-center justify-around backdrop-blur-lg ">
                 <div>
                     <h1 className="font-extrabold text-3xl">GULBE</h1>
                 </div>
