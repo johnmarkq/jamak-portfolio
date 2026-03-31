@@ -1,5 +1,5 @@
 import { Section } from "@/components/common/Section"
-import { projectData } from "@/contant/project"
+import { projectData } from "@/constant/project"
 import Link from "next/link";
 import Image from "next/image";
 

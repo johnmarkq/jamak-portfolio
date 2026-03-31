@@ -34,7 +34,7 @@ export function Skill()
                     <div className="flex flex-col gap-4">
                         <h3 className="text-2xl md:text-3xl font-extrabold text-center md:text-left">Experience</h3>
                         <p className="text-muted-foreground text-base md:text-lg leading-relaxed text-center md:text-left">
-                            I have gained valuable experience through various projects and coursework. My expertise spans web development, mobile applications, and software design patterns. I'm continuously building my portfolio with real-world projects and contributing to collaborative team environments.
+                            I have gained valuable experience through various projects and coursework. My expertise spans web development, mobile applications, and software design patterns. I&apos;m continuously building my portfolio with real-world projects and contributing to collaborative team environments.
                         </p>
                     </div>
                 </div>

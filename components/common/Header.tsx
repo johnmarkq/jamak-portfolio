@@ -1,6 +1,6 @@
 "use client"
 import { Menu, X } from "lucide-react"
-import { navbarPath } from "@/contant/navbarlink"
+import { navbarPath } from "@/constant/navbarlink"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ModeToggle } from "@/components/common/DarkmodeToggle"

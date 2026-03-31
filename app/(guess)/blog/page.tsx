@@ -1,6 +1,4 @@
-
-export default function Blogs(){
-    return(
-        <div>blog page</div>
-    );
+import { BlogLandingContent } from "@/components/features/blog/BlogLandingContent";
+export default function BlogLandingPage() {
+  return <BlogLandingContent />;
 }
