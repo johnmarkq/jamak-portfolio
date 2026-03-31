@@ -7,7 +7,7 @@ export function HeroBanner(){
     const [profile, setProfile ] = useState("/jamak.jpg");
     return(
         <Section>
-            <div className="container mx-auto flex justify-center items-center">
+            <div className="container mx-auto flex justify-center items-center my-25">
                 <div className="flex-1 items-center flex justify-center">
                     <div className={`relative w-100 aspect-square rounded-lg border-3 bg-gray-700/30 border-black hover:border-white transition-all`}>
                         <Image  

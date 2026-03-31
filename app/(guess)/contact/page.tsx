@@ -1,7 +1,9 @@
 
 
+import { ContactSection } from "@/components/features/contact/conactsection"
+
 export default function Contact(){
     return(
-        <div>contact page</div>
+        <ContactSection />
     );
 }
