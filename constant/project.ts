@@ -8,7 +8,7 @@ type project_type = {
 
 export const projectData: project_type[] = [
     {
-        link: "https://myportfolio-amot.vercel.app/",
+        link: "https://myportfolio-jamak.vercel.app/",
         imageLink: "/portfolio.png",
         title: "My Portfolio"
     },
